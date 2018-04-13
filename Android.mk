@@ -28,11 +28,11 @@ LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res
 LOCAL_USE_AAPT2 := true
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
-    android-support-annotations
+    androidx.annotation_annotation
 LOCAL_STATIC_ANDROID_LIBRARIES := \
-    android-support-compat \
-    android-support-core-utils \
-    android-support-core-ui
+    androidx.core_core \
+    androidx.legacy_legacy-support-core-utils \
+    androidx.legacy_legacy-support-core-ui
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
