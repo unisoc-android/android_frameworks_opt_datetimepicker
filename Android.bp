@@ -25,10 +25,10 @@ android_library {
     resource_dirs: ["res"],
 
     static_libs: [
-        "android-support-annotations",
-        "android-support-compat",
-        "android-support-core-utils",
-        "android-support-core-ui",
+        "androidx.annotation_annotation",
+        "androidx.core_core",
+        "androidx.legacy_legacy-support-core-utils",
+        "androidx.legacy_legacy-support-core-ui",
     ],
 
     optimize: {
