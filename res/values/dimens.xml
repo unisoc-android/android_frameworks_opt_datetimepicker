@@ -29,9 +29,9 @@
     <item name="text_size_multiplier_outer" format="float" type="string">0.11</item>
 
 
-    <dimen name="time_label_size">60sp</dimen>
+    <dimen name="time_label_size">60dp</dimen>
     <dimen name="extra_time_label_margin">-30dp</dimen>
-    <dimen name="ampm_label_size">16sp</dimen>
+    <dimen name="ampm_label_size">16dp</dimen>
     <dimen name="done_label_size">14sp</dimen>
     <dimen name="ampm_left_padding">6dip</dimen>
     <dimen name="separator_padding">4dip</dimen>
